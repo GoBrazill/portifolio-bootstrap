@@ -1,2 +1,6 @@
 @import url(./global.css);
 
+.hero > img{
+    object-fit: cover;
+    border-radius: 50%; 
+}
