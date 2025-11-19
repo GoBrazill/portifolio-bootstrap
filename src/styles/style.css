@@ -1,6 +1,52 @@
 @import url(./global.css);
 
+body {
+    background-color: var(--clr-neutral-white);
+}
+
+header {
+    height: 60px;
+    background-color: var(--clr-neutral-black);
+}
+
+nav {
+    height: 100%;
+    padding: 0px !important;
+}
+
+main {
+    margin: 0px 24px !important;
+}
+
 .hero > img{
     object-fit: cover;
     border-radius: 50%; 
+}
+
+.hero .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid var(--clr-neutral-black);
+    color: var(--clr-neutral-black);
+    background-color: var(--clr-primary-light-green);
+}
+
+.hero .btn:hover {
+    background-color: var(--clr-primary-dark-green);
+}
+
+.row {
+    gap: 30px;
+}
+
+.card {
+    border-color: var(--clr-neutral-black);
+}
+
+footer {
+    margin-top: 30px;
+    padding: 28px;
+    background-color: var(--clr-neutral-black);
 }

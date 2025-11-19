@@ -4,3 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+:root {
+    --clr-primary-light-green: #D5DE2E;
+    --clr-primary-dark-green: #B0C400;
+    
+    --clr-neutral-white: #fafafa;
+    --clr-neutral-black: #121212;
+}
