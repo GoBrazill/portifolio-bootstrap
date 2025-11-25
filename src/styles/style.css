@@ -24,13 +24,16 @@ main {
 }
 
 .hero .btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
     border: 1px solid var(--clr-neutral-black);
     color: var(--clr-neutral-black);
     background-color: var(--clr-primary-light-green);
+}
+
+.btn > a {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 5px;
 }
 
 .hero .btn:hover {
