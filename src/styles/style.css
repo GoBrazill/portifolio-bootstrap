@@ -40,6 +40,10 @@ main {
     background-color: var(--clr-primary-dark-green);
 }
 
+section.container {
+    padding: 0 2rem;
+}
+
 .row {
     gap: 30px;
 }
